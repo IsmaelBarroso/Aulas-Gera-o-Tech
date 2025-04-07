@@ -1,5 +1,7 @@
 # 🚀 Geração Tech - Projeto
 
+![Geração Tech Banner](./assets/Imagem-Geração-Tech.jpg)
+
 Projeto desenvolvido durante o curso intensivo **Geração Tech**, oferecido pelo IEL e Governo do Ceará, com foco em desenvolvimento web full stack.
 
 ## 🛠️ Tecnologias Utilizadas
