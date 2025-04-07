@@ -21,9 +21,7 @@ Projeto desenvolvido durante o curso intensivo **Geração Tech**, oferecido pel
 
 
 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cypressio/cypressio-original.svg" width="40px" alt="Cypress"/>
-</p>
-
+ 
 ## 📚 Sobre o Projeto
 
 Aplicação desenvolvida com foco em consolidar habilidades de front-end e back-end, utilizando ferramentas modernas de desenvolvimento web.
