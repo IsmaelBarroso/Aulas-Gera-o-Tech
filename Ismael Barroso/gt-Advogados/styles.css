@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header - cabeçalho  */
+
+.container-header-cabecalho {
+  background-color: #1a2b4b;
+  border-bottom: 24px solid #b68954;
+  display: flex;
+  justify-content: center;
+}
+
+.container-div-cabecalho {
+  background-color: red;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-ul-cabecalho {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  list-style: none;
+}
+
+.container-ul-cabecalho li a {
+  text-decoration: none;
+  color: white;
+}
