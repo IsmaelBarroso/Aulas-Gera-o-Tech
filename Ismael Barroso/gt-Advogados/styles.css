@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 /* header - cabeçalho  */
 
 .container-header-cabecalho {
@@ -11,10 +15,10 @@
   border-bottom: 24px solid #b68954;
   display: flex;
   justify-content: center;
+  padding: 36px 0;
 }
 
 .container-div-cabecalho {
-  background-color: red;
   width: 80%;
   display: flex;
   flex-direction: row;
@@ -32,4 +36,6 @@
 .container-ul-cabecalho li a {
   text-decoration: none;
   color: white;
+  font-size: 22.4px;
+  font-weight: bold;
 }
