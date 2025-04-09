@@ -5,14 +5,21 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
 
-html {
-  scroll-behavior: smooth;
-}
 /* header - cabeçalho */
+
+#menu {
+  display: none;
+  color: white;
+  font-size: 2rem;
+}
 
 .container-header-cabecalho {
   background-color: #1a2b4b;
@@ -311,6 +318,23 @@ footer {
   padding: 4rem 0;
 }
 
-.card-especialidades img {
-  width: 4.3rem;
+@media (max-width: 1150px) {
+  .container-div-cabecalho {
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .container-div-cabecalho {
+    flex-direction: row;
+  }
+
+  .container-div-cabecalho ul {
+    display: none;
+  }
+
+  #menu {
+    display: block;
+  }
 }
