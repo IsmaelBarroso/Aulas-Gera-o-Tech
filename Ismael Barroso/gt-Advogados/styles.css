@@ -9,6 +9,9 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 /* header - cabeçalho */
 
 .container-header-cabecalho {
@@ -17,6 +20,12 @@ body {
   display: flex;
   justify-content: center;
   padding: 2.25rem 0;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  width: 100%;
 }
 
 .container-div-cabecalho {
@@ -164,6 +173,142 @@ body {
   gap: 1rem;
   padding: 2rem;
   color: #1a2b4b;
+}
+
+.card-especialidades img {
+  width: 4.3rem;
+}
+
+/* Quem somos */
+
+.container-section-quem-somos {
+  background-image: url("assets/banner-sobre-mim.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0;
+  position: relative;
+}
+
+.container-section-quem-somos::before {
+  content: "";
+  background-color: #1a2b4b;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.8;
+}
+
+.container-div-quem-somos {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  z-index: 2;
+}
+
+#foto-advogado {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 100%;
+  object-fit: cover;
+  border: 0.2rem solid #b68954;
+}
+
+.container-div-quem-somos h2 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+  border-bottom: 0.5rem solid #b68954;
+  padding-bottom: 1rem;
+}
+
+.container-div-quem-somos article {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: justify;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+#ultima-frase-quem-somos {
+  font-weight: bold;
+}
+
+/* Depoimentos */
+
+.container-section-depoimentos {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0;
+}
+
+.container-div-depoimentos {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.container-div-depoimentos h2 {
+  font-size: 3rem;
+  color: #1a2b4b;
+}
+
+.container-cards-depoimentos {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.card-depoimentos {
+  border: 0.2rem solid #b68954;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20.6rem;
+  border-radius: 1rem;
+  text-align: center;
+  gap: 1.5rem;
+  padding: 2rem;
+  position: relative;
+  height: 26.75rem;
+  color: #1a2b4b;
+}
+
+.card-depoimentos h3 {
+  font-size: 1.4rem;
+}
+
+.card-depoimentos p {
+  font-size: 1.2rem;
+}
+
+.aspas {
+  width: 4.35rem;
+  position: absolute;
+  bottom: 25rem;
+}
+
+/* footer - rodapé */
+
+footer {
+  background-color: #b68954;
+  color: white;
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 4rem 0;
 }
 
 .card-especialidades img {
